@@ -1,0 +1,114 @@
+{
+    "questions": [
+      {
+        "category": "Access Control",
+        "question": "How are user access rights managed in your organization?",
+        "options": {
+          "A": "No formal process in place",
+          "B": "Manual assignment with occasional reviews",
+          "C": "Role-based access control with periodic reviews",
+          "D": "Automated, policy-driven access management"
+        },
+        "answer": null
+      },
+      {
+        "category": "Data Protection",
+        "question": "How is sensitive data encrypted?",
+        "options": {
+          "A": "No encryption applied",
+          "B": "Encrypted at rest only",
+          "C": "Encrypted at rest and in transit",
+          "D": "Encrypted with key rotation and enhanced controls"
+        },
+        "answer": null
+      },
+      {
+        "category": "Incident Management",
+        "question": "What is the process for handling security incidents?",
+        "options": {
+          "A": "Ad hoc, no formal process",
+          "B": "Basic incident response plan",
+          "C": "Documented response plan tested annually",
+          "D": "Comprehensive plan with real-time monitoring and response"
+        },
+        "answer": null
+      },
+      {
+        "category": "Compliance",
+        "question": "How does your organization ensure compliance with regulations?",
+        "options": {
+          "A": "No compliance measures in place",
+          "B": "Basic measures for key regulations",
+          "C": "Regular audits and policy updates",
+          "D": "Automated compliance tracking and reporting"
+        },
+        "answer": null
+      },
+      {
+        "category": "Access Control",
+        "question": "What methods are used to authenticate users?",
+        "options": {
+          "A": "Username and password only",
+          "B": "Username and password with periodic password changes",
+          "C": "Multi-factor authentication for sensitive access",
+          "D": "Continuous authentication and biometrics"
+        },
+        "answer": null
+      },
+      {
+        "category": "Data Protection",
+        "question": "How is data backup handled?",
+        "options": {
+          "A": "No backups",
+          "B": "Periodic backups to local storage",
+          "C": "Automated backups to cloud with encryption",
+          "D": "Automated, encrypted backups with disaster recovery"
+        },
+        "answer": null
+      },
+      {
+        "category": "Incident Management",
+        "question": "How are employees trained for incident response?",
+        "options": {
+          "A": "No training provided",
+          "B": "Annual general awareness training",
+          "C": "Role-specific incident response training",
+          "D": "Frequent, scenario-based training exercises"
+        },
+        "answer": null
+      },
+      {
+        "category": "Compliance",
+        "question": "How is compliance documentation managed?",
+        "options": {
+          "A": "Not documented",
+          "B": "Basic documentation maintained",
+          "C": "Well-organized and periodically reviewed",
+          "D": "Dynamic documentation integrated into workflows"
+        },
+        "answer": null
+      },
+      {
+        "category": "Access Control",
+        "question": "How are inactive user accounts handled?",
+        "options": {
+          "A": "No process in place",
+          "B": "Manual review of accounts",
+          "C": "Automated deactivation after a set period",
+          "D": "Policy-driven, dynamic deactivation based on behavior"
+        },
+        "answer": null
+      },
+      {
+        "category": "Data Protection",
+        "question": "How is data shared with external parties?",
+        "options": {
+          "A": "No controls in place",
+          "B": "Manual approvals for data sharing",
+          "C": "Controlled sharing with encryption",
+          "D": "Automated, policy-enforced sharing with monitoring"
+        },
+        "answer": null
+      }
+    ]
+  }
