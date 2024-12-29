@@ -1,7 +1,7 @@
 // src/components/landing/TerminalSection.vue
 <template>
   <section>
-    <div class="max-w-2xl mx-auto">
+    <div class="max-w-3xl mx-auto">
       <CyberTerminal title="SEC:// Terminal v1.0">
         <div class="h-64 overflow-y-auto mb-4" ref="outputContainer">
           <div v-for="(entry, idx) in commandHistory" 

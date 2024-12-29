@@ -2,14 +2,15 @@
   <div class="relative">
     <GridBackground />
     
-    <main class="relative z-10 flex flex-col gap-8">
-      <HeroSection />
-      <div class="px-4">
-        <div class="max-w-4xl mx-auto space-y-8">
-          <ManifestoSection />
-          <TerminalSection />
-        </div>
-      </div>
+    <main class="relative z-10 flex flex-col">
+      <!-- Hero section with less bottom margin -->
+      <HeroSection class="min-h-[40vh] mb-16" />
+      
+      <!-- Manifesto with specific margins -->
+      <ManifestoSection class="mb-24" />
+      
+      <!-- Terminal section -->
+      <TerminalSection class="mb-16" />
     </main>
   </div>
 </template>
