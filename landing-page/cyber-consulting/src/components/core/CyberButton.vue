@@ -22,7 +22,7 @@
   
   <script setup>
   import { ref } from 'vue'
-  import { useGlitchEffect } from '../../composables/useGlitchEffect'
+  import { useGlitchEffect } from '../../composables/useGlitchEffect.js'
   
   const { isGlitching, startGlitch, stopGlitch } = useGlitchEffect()
   const isHovered = ref(false)

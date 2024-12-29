@@ -30,7 +30,7 @@
   
   <script setup>
   import CyberTerminal from '../core/CyberTerminal.vue'
-  import { useTerminalCommands } from '../../composables/useTerminalCommands'
+  import { useTerminalCommands } from '../../composables/useTerminalCommands.js'
   
   const { commandHistory, currentCommand, processCommand } = useTerminalCommands()
   </script>

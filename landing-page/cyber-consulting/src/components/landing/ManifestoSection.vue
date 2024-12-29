@@ -31,8 +31,8 @@
   
   <script setup>
   import CyberTerminal from '../core/CyberTerminal.vue'
-  import { useScrollReveal } from '../../composables/useScrollReveal'
-  import { manifestoSections } from '../../data/manifesto'
+  import { useScrollReveal } from '../../composables/useScrollReveal.js'
+  import { manifestoSections } from '../../data/manifesto.js'
   
   const { isRevealed } = useScrollReveal()
   </script>
