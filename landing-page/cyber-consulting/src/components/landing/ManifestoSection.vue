@@ -1,5 +1,5 @@
 <template>
-    <section class="py-20 px-4" data-section="manifesto">
+    <section>
       <div class="max-w-4xl mx-auto">
         <CyberTerminal title="MANIFESTO.SYS">
           <div class="space-y-8">

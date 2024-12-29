@@ -1,6 +1,6 @@
 // src/components/landing/TerminalSection.vue
 <template>
-  <section class="py-20 px-4" ref="terminalSection">
+  <section>
     <div class="max-w-2xl mx-auto">
       <CyberTerminal title="SEC:// Terminal v1.0">
         <div class="h-64 overflow-y-auto mb-4" ref="outputContainer">

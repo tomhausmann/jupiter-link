@@ -2,10 +2,14 @@
   <div class="relative">
     <GridBackground />
     
-    <main class="relative z-10">
+    <main class="relative z-10 flex flex-col gap-8">
       <HeroSection />
-      <ManifestoSection />
-      <TerminalSection />
+      <div class="px-4">
+        <div class="max-w-4xl mx-auto space-y-8">
+          <ManifestoSection />
+          <TerminalSection />
+        </div>
+      </div>
     </main>
   </div>
 </template>
