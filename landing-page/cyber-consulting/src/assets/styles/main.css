@@ -2,43 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  :root {
-    --color-cyber-black: #0B0B0D;
-    --color-cyber-blue: #3BB4C1;
-    --color-cyber-pink: #FF2A6D;
-    --color-cyber-purple: #B829E8;
-    --color-cyber-green: #00FF41;
-  }
-}
-
-@layer components {
-  .cyber-glitch {
-    @apply relative;
-    animation: glitch 500ms infinite;
-  }
-
-  .cyber-scanline {
-    @apply absolute inset-0;
-    background: linear-gradient(
-      transparent 0%,
-      rgba(59, 180, 193, 0.2) 50%,
-      transparent 100%
-    );
-    animation: scan 2s linear infinite;
-  }
-}
-
-@keyframes glitch {
-  0% { transform: translate(0) }
-  20% { transform: translate(-2px, 2px) }
-  40% { transform: translate(-2px, -2px) }
-  60% { transform: translate(2px, 2px) }
-  80% { transform: translate(2px, -2px) }
-  100% { transform: translate(0) }
-}
-
-@keyframes scan {
-  from { transform: translateY(-100%) }
-  to { transform: translateY(100%) }
+:root {
+  --color-cyber-black: #0B0B0D;
+  --color-cyber-blue: #3BB4C1;
+  --color-cyber-pink: #FF2A6D;
+  --color-cyber-purple: #B829E8;
+  --color-cyber-green: #00FF41;
 }
